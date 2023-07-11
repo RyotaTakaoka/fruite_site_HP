@@ -119,7 +119,7 @@ footer p{
     width: 100vw;
     height: 25vh;
     background: #fff;
-    /*0.7秒かけてナビメニューがスライドする*/
+    /*0.7秒かけてナビメニューが左スライドする*/
     transition: 0.7s;
     padding-top: 50px;
   }
