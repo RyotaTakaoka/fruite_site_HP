@@ -33,7 +33,11 @@
     <h2>フルーツ農園「やまなし」通販ページ</h2>
     <div class="commodity_space">
       <div class="commodity_1">
-        <img src="image/grapes-2032838_1280.jpg" alt="ぶどう"></br>
+        <picture>
+          <source media="(min-width: 768px)" srcset="image/grapes-2032838_1280.jpg"></br>    <!--パソコン用画像-->
+          <source media="(max-width: 767px)" srcset="image/grapes-2032838_1280_2.jpg"></br>  <!--スマートフォン用画像-->
+          <img src="image/grapes-2032838_1280.jpg" alt="ぶどう">
+        </picture>
         <p class="price">価格：300円（1房)</p>
         数量
         <select name="quantity">
@@ -46,7 +50,11 @@
         <input class="commodity_p" type="submit" value="購入する">
       </div>
       <div class="commodity_2">
-        <img src="image/muscatFTHG2645_TP_V.jpg" alt="白ぶどう"></br>
+        <picture>
+          <source media="(min-width: 768px)" srcset="image/muscatFTHG2645_TP_V.jpg"></br>       <!--パソコン用画像-->
+          <source media="(max-width: 767px)" srcset="image/muscatFTHG2645_TP_V_2.jpg"></br> <!--スマートフォン用画像-->
+          <img src="image/muscatFTHG2645_TP_V.jpg" alt="白ぶどう"></br>
+        </picture>
         <p class="price">価格：250円（1房）</p>
         数量
         <select name="quantity">
